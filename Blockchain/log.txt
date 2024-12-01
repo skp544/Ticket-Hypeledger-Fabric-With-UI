@@ -1,0 +1,2 @@
+Installed chaincodes on peer:
+Package ID: ticketcontract_1:8fb6a7dc147c69fd195b1aed4340df3f3b1fb446c5c9ffa7c78a8440923713d3, Label: ticketcontract_1

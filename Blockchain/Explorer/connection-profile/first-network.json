@@ -1,0 +1,58 @@
+{
+  "name": "test-network",
+  "version": "1.0.0",
+  "client": {
+    "tlsEnable": true,
+    "adminCredential": {
+      "id": "exploreradmin",
+      "password": "exploreradminpw"
+    },
+    "enableAuthentication": true,
+    "organization": "SupplierOrgS6MSP", 
+    "connection": {
+      "timeout": {
+        "peer": {
+          "endorser": "300"
+        },
+        "orderer": "300"
+      }
+    }
+  },
+  "channels": {
+    "channel1": {
+      "peers": {
+        "peer0.SupplierOrgS6.example.com": {} 
+      },
+      "channel2": { 
+        "peers": {
+          "peer0.SupplierOrgS6.example.com": {}
+        }
+      },
+      "channel3": { 
+        "peers": {
+          "peer0.SupplierOrgS6.example.com": {}
+        }
+      }
+    }
+  },
+  "organizations": {
+    "SupplierOrgS6MSP": { 
+      "mspid": "SupplierOrgS6MSP",
+      "adminPrivateKey": {
+        "path": "/etc/data/peerOrganizations/SupplierOrgS6.example.com/users/Admin@SupplierOrgS6.example.com/msp/keystore/priv_sk" 
+      },
+      "peers": ["peer0.SupplierOrgS6.example.com"], 
+      "signedCert": {
+        "path": "/etc/data/peerOrganizations/SupplierOrgS6.example.com/users/Admin@SupplierOrgS6.example.com/msp/signcerts/Admin@SupplierOrgS6.example.com-cert.pem" 
+      }
+    }
+  },
+  "peers": {
+    "peer0.SupplierOrgS6.example.com": { 
+      "tlsCACerts": {
+        "path": "/etc/data/peerOrganizations/SupplierOrgS6.example.com/peers/peer0.SupplierOrgS6.example.com/tls/ca.crt" 
+      },
+      "url": "grpcs://peer0.SupplierOrgS6.example.com:13051" 
+    }
+  }
+}

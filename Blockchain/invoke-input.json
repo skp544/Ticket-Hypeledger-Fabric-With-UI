@@ -1,0 +1,21 @@
+{
+  "function": "CreateProject",
+  "Args": [
+    "PRJ0001",
+    "Green Planet Money LLC",
+    "Address1,Address2, City, TX-12345,USA",
+    "The Nearby Well is located near Great Lake TX. The Disposal Well was built in 1970. Water is disposed into San Andreas from 5000 feet. The project has assets installed and ready for generating green electricity during SWD disposal using PSH. The main KPI for the project is MW of electricity produced and sold/consumed internally. It has potential to earn Carbon Credits that are redeemable in the Carbon Exchange Markets.",
+    "PRJ001A0001",
+    "Great Lake, Oil Land, TX, USA",
+    "2.5 miles East of Great Lake, TX",
+    30.123456,
+    -100.123177,
+    "Continuous SWD available from nearby Oil Wells. There is potential to improve revenue",
+    ["<url=url of uploaded photo>,<type=photo>, <file-hash>"],
+    1,
+    ["<PRJ0001A0002>", "<PRJ0001A0003>", "<PRJ0001A0004>", "<PRJ0001S0001>"],
+    "ERC3525NFTID",
+    1,
+    "user-id"
+  ]
+}
